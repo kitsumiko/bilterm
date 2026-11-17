@@ -1,5 +1,12 @@
 # Bilterm — Claude & AI Coding Agent Instructions
 
+@.claude/rules/native-builds.md
+
+Use the `yurei build` queue via the runtime's executable absolute `YUREI_BIN`; verify native pod placement.
+Preserve BypassGuard and every real human gate; this policy never widens credential, money, release or irreversible authority.
+
+All build and test examples below run through the approved native Darwin pod route; older host exceptions are superseded.
+
 Please read **[`AGENTS.md`](AGENTS.md)** and **[`docs/DEVELOPER_AND_AGENT_GUIDE.md`](docs/DEVELOPER_AND_AGENT_GUIDE.md)** first. Together they document:
 
 1. **Crate & Library Stack (`Cargo.toml`)**: `ratatui 0.30.2`, `crossterm 0.29.0`, `portable-pty 0.9.0`, `tokio 1.44+`, `vt100-ctt 0.17.1` (default VT engine; optional `libghostty-vt` via feature `ghostty-vt`), `serde`+`toml`, `nucleo-matcher`, and `insta`.
